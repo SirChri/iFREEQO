@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hello, world!</title>
+  </head>
+<body>
+    <div class="row" style="height: 100%">
+        <div class="col-4">
+            <div class="container">
+                <h4>Input</h4>
+              <form id="input">
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Upload <i>dot</i> file</i></label>
+                    <input class="form-control" type="file" id="formFile" accept=".dot">
+                </div>
+                <h6 class="text-divider"><span>OR</span></h6>
+                <div class="mb-3">
+                    <textarea class="form-control" id="dot-src" rows="3"></textarea>
+                </div>
+                <div class="text-end">
+                    <button type="button" class="btn btn-secondary">Reset</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+            </div>
+        </div>
+        <div class="col-8" id="output-matrix">
+
+        </div>
+      </div>
+
+    <!--toast-->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+      <div id="main-toast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-body">
+        </div>
+      </div>
+    </div>
+
+    <!-- Bundled File -->
+    <script src="/static/bundle.js"></script>
+  </body>
+</html>

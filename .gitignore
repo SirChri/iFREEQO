@@ -1,0 +1,18 @@
+**.vscode/
+**/bin/*
+
+!**.gitkeep
+
+# Dependency directories
+.DS_Store
+**/.DS_Store
+
+**/__pycache__
+srcold
+
+package-lock.json
+
+node_modules
+**/node_modules
+
+static
